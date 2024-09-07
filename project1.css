@@ -1,0 +1,54 @@
+.container{
+	border:4px solid black;
+	width:80%;
+	height:600px;
+	background-color: #003333;
+	margin-top: 50px;
+	margin-left:10%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.container div{
+	margin:30px;
+	border:2px solid black;
+	height:520px;
+	width:27%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#div1{
+	background-image: url("D:/intrenship project/images/download.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 70vh;
+	
+}
+
+#div2{
+	background-image: url("D:/intrenship project/images/2022-12-08.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 70vh;
+}
+
+#div3{
+	background-image: url("D:/intrenship project/images/images (1).jpg");
+	background-repeat: no-repeat;
+	background-size:100% 70vh;
+}
+
+.container div:nth-child(1){
+	transform: perspective(500px) rotateY(190deg);
+		background-color: #222;
+	background-blend-mode: hard-light;
+}
+
+.container div:nth-child(2n+3){
+	transform: perspective(500px) rotateY(170deg);
+		background-color: #222;
+	background-blend-mode: hard-light;
+}
+
+.container div:hover{
+	transform:scaleY(1.05);
+}
+

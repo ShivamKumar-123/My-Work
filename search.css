@@ -1,0 +1,29 @@
+body{
+	 background: linear-gradient(90deg, #8e44ad, #3498db);
+}
+
+.container{
+		margin-top: 24%;
+		margin-left: 35%;
+}
+#searchHere{
+	height:40px;
+	width:45%;
+/*	margin-left: -8px;*/
+	border-top-right-radius: 1.2rem;
+	border-bottom-right-radius: 1.2rem;
+	padding-left: 20px;
+}
+.drop-list{
+	height:40px;
+	color: white;
+	background-color: #820000;
+	border-radius: 1.2rem;
+	padding-left: 12px;
+	
+}
+.drop-list option{
+	color:black;
+	background-color: white;
+	
+}

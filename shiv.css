@@ -1,0 +1,110 @@
+.container1{
+	height:100vh;
+	width:100%;
+	background-image: url("D:/intrenship project/images/bg.jpg");
+
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;	
+}
+
+.container2{
+	height:300px;
+	width:30%;
+	background-image: url("D:/intrenship project/images/girl (1).png");
+	background-repeat: no-repeat;
+	background-size:70% 100%;
+	background-position: center;
+	margin-left:40%;
+	transform: rotateY(180deg);
+	animation: runbiker 10s ease-out 3;
+}
+
+
+
+@keyframes runbiker{
+	0%{
+
+		transform: translateX(0px);
+	}
+	0%{
+		transform: rotateY(180deg);
+	}
+	
+	50%{			
+		transform: translateX(2500px) ;
+	}
+
+	100%{
+		transform:translateX(-850px) ;
+	}
+
+}
+
+
+
+.container3{
+	height:100vh;
+	width:100vw;
+	margin-top: 0px;
+	margin-left: -70%;
+	background-image: url("D:/intrenship project/images/trees.png");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	z-index: 1;
+
+}
+
+.log-sign{
+	margin-left:33%;
+	margin-top:14%;
+	width:35%;
+	height: 380px;
+	background-color:lightgrey;
+	padding-top:10px;
+	opacity:0.85;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.form1{
+	padding-left:15%;
+}
+#name{
+	margin-top: 25px;
+	width:75%;
+	height:40px;
+	margin-bottom:20px;
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:0;
+}
+#pass{
+	width:72%;
+	height:40px;
+	margin-bottom:25px;
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:0;
+}
+.form1 button{
+	height:45px;
+	width:77%;
+	background-color: #820000;
+	color:white;
+	margin-bottom:30px;
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border:0;
+}
+#span1{
+	margin-left: 15%;
+	margin-right: 30%;
+}
+
+span a{
+	color: #820000;
+	font-size: 20px;
+}

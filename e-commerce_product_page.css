@@ -1,0 +1,222 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	background-color:#F5F5F5;
+}
+
+/*----------header-section------------*/
+
+header{
+	height:100px;
+	width:100%;
+	background: linear-gradient(90deg, black, darkred 10%, deeppink);
+	padding:10px;
+	position: sticky;
+	top:0px;
+}
+
+       /*header-nav*/
+
+nav{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+       /*header-image*/
+
+.div1{
+	height:100px;
+	width:10%;
+	margin-left: 15px;
+	background-image: url("D:/intrenship project/images/shopnow.png");
+	background-size:100% 80%;
+	background-repeat: no-repeat;
+}
+
+         /*	header-list_items*/
+
+  .div2{
+  	width:30%;
+  }
+.div2 ul li{
+	color:white;
+	display:inline-block;
+	list-style: none;
+	font-size: 20px;
+	margin-right:30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div2 ul li:hover{
+	transform: scale(1.06);
+
+}
+
+.div3{
+	display: none;
+}
+@media screen and (max-width:1028px) and (min-width:760px){
+	header{
+		height:80px;
+	}
+	.div1{
+		height:75px;
+		width:15%;
+		background-size:70% 80%;
+	}
+	.div2 ul{
+		margin-left:-80%;
+	}
+}
+
+@media screen and (max-width:760px) and (min-width:360px){
+	header{
+		height:80px;
+	}
+	.div1{
+		height:75px;
+		width:25%;
+		background-size:100% 80%;
+		margin-left:5px;
+	}
+	.div2 ul{
+		display: none;
+	}
+	
+	.div3{
+		display: inline-block;		
+	}
+	.div3 i{
+		margin-right: 20px;
+		font-size: 20px;
+		color:white;
+	}
+}
+
+/*-----------------------------main-section---------------------*/
+
+main{
+	height:67vh;
+	overflow:auto;
+}
+.container{
+	width:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-bottom: 20px;
+}
+ .container div{
+	height:400px;
+	width:30%;
+	margin-top:60px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+#child-conatiner div{
+	height:200px;
+	width:100%;
+	margin:auto;
+}
+
+.shoes1{
+	background-image: url("D:/intrenship project/images/71Bj9HgPRiL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+
+.shoes2{
+	background-image: url("D:/intrenship project/images/71lVk-4gvVL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+.shoes3{
+	background-image: url("D:/intrenship project/images/71subBFxFLL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+.shoes4{
+	background-image: url("D:/intrenship project/images/71xlzzUl6aL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+
+.shoes5{
+	background-image: url("D:/intrenship project/images/81fgqhk+dDL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+.shoes6{
+	background-image: url("D:/intrenship project/images/81zONBZD4dL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+.shoes7{
+	background-image: url("D:/intrenship project/images/513pJx4hppL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+.shoes8{
+	background-image: url("D:/intrenship project/images/61mVmrrK-YL._AC_UL480_FMwebp_QL65_.webp");
+	background-repeat: no-repeat;
+	background-size: 80% 80%;
+}
+
+button{
+	
+	background-color:rosybrown;
+	border:2px solid black;
+	width:100px;
+	height: 35px;
+	font-size: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+	transform: scale(1.08);
+}
+
+@media screen and (max-width:1028px) and (min-width:760px){
+	.container div{
+		width:42%;
+	}
+}
+@media screen and (max-width:760px) and (min-width:360px){
+	.container div{
+		width:80%;
+	}
+}
+
+
+
+
+
+/* --------------------------Footer-section-----------------*/
+footer{
+	height:150px;
+	width:100%;
+	margin-top:10px;
+	background: linear-gradient(90deg, deeppink, darkred 10%, black);
+}
+
+@media screen and (max-width:1200px) and (min-width:760px){
+	footer{
+		height:300px;
+	}
+
+@media screen and (max-width:760px) and (min-width:360px){
+	footer{
+		height:230px;
+	}
+
+}
